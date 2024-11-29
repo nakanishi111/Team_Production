@@ -1661,6 +1661,7 @@ GameObject:
   - component: {fileID: 941098075}
   - component: {fileID: 941098073}
   - component: {fileID: 941098079}
+  - component: {fileID: 941098080}
   m_Layer: 0
   m_Name: yoshikuzu
   m_TagString: gomi
@@ -1797,6 +1798,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrowPrefab: {fileID: 1360532151}
+--- !u!114 &941098080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941098072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efff6eaafc27f44b91b9c677cba56df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionSound: {fileID: 8300000, guid: 42e195051168e4646923dafffda1ef12, type: 3}
 --- !u!1 &1058885154
 GameObject:
   m_ObjectHideFlags: 0

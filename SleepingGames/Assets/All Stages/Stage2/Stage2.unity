@@ -6925,6 +6925,7 @@ GameObject:
   - component: {fileID: 1469740580}
   - component: {fileID: 1469740586}
   - component: {fileID: 1469740587}
+  - component: {fileID: 1469740588}
   m_Layer: 0
   m_Name: yoshikuzu
   m_TagString: gomi
@@ -7062,6 +7063,19 @@ CircleCollider2D:
   m_Offset: {x: -0.019728992, y: 0.004364041}
   serializedVersion: 2
   m_Radius: 0.1674102
+--- !u!114 &1469740588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469740578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0efff6eaafc27f44b91b9c677cba56df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collisionSound: {fileID: 8300000, guid: 42e195051168e4646923dafffda1ef12, type: 3}
 --- !u!1 &1602706928
 GameObject:
   m_ObjectHideFlags: 0

@@ -139,6 +139,7 @@ GameObject:
   - component: {fileID: 44007264}
   - component: {fileID: 44007263}
   - component: {fileID: 44007270}
+  - component: {fileID: 44007271}
   m_Layer: 0
   m_Name: yoshikuzu
   m_TagString: gomi
@@ -302,6 +303,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionSound: {fileID: 8300000, guid: 42e195051168e4646923dafffda1ef12, type: 3}
+--- !u!114 &44007271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44007262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0932a255c37536b408d18633d57e7ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraShake: {fileID: 1907232235}
+  shakeDuration: 0.1
+  shakeMagnitude: 0.1
 --- !u!1 &44832945
 GameObject:
   m_ObjectHideFlags: 0
@@ -2838,6 +2854,7 @@ GameObject:
   - component: {fileID: 1907232234}
   - component: {fileID: 1907232233}
   - component: {fileID: 1907232232}
+  - component: {fileID: 1907232235}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2911,6 +2928,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1907232235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1907232231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a7cf72f104e164ca19a66b193d5b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1982647470
 GameObject:
   m_ObjectHideFlags: 0

@@ -308,7 +308,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 84089b0b2843a424bbff341481dd6ed9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b76d0b4073d9714491d32f104f982f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -316,7 +316,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &177889154
@@ -680,6 +680,7 @@ GameObject:
   - component: {fileID: 239483487}
   - component: {fileID: 239483486}
   - component: {fileID: 239483485}
+  - component: {fileID: 239483488}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -722,7 +723,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.2117567
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -753,6 +754,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &239483488
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239483484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a7cf72f104e164ca19a66b193d5b6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &353376620
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,7 +826,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 84089b0b2843a424bbff341481dd6ed9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b76d0b4073d9714491d32f104f982f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -821,7 +834,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &353376622
@@ -1050,7 +1063,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 84089b0b2843a424bbff341481dd6ed9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9b76d0b4073d9714491d32f104f982f3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1058,7 +1071,7 @@ SpriteRenderer:
   m_Size: {x: 0.64, y: 0.64}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &464964220
@@ -6926,6 +6939,7 @@ GameObject:
   - component: {fileID: 1469740586}
   - component: {fileID: 1469740587}
   - component: {fileID: 1469740588}
+  - component: {fileID: 1469740589}
   m_Layer: 0
   m_Name: yoshikuzu
   m_TagString: gomi
@@ -7076,6 +7090,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionSound: {fileID: 8300000, guid: 42e195051168e4646923dafffda1ef12, type: 3}
+--- !u!114 &1469740589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1469740578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0932a255c37536b408d18633d57e7ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraShake: {fileID: 239483488}
+  shakeDuration: 0.5
+  shakeMagnitude: 0.1
 --- !u!1 &1602706928
 GameObject:
   m_ObjectHideFlags: 0
@@ -7650,7 +7679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84fa14573a6c80a4999228a992863526, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firework: {fileID: 1098925333}
 --- !u!68 &2136623724
 EdgeCollider2D:
   m_ObjectHideFlags: 0

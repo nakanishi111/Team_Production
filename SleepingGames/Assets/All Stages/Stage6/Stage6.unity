@@ -376,8 +376,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 192385555}
-  rotationSpeed: 45
 --- !u!212 &192385554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -641,11 +639,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 367179346}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6330980d7730c794b90aa5493d617014, type: 3}
+  m_Script: {fileID: 11500000, guid: 74a7cf72f104e164ca19a66b193d5b6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shakeDuration: 0.1
-  shakeMagnitude: 0.1
 --- !u!1 &495678663
 GameObject:
   m_ObjectHideFlags: 0
@@ -1011,7 +1007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c88039c79a9024c85f5fd950d5b996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 603343636}
 --- !u!212 &603343638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1210,21 +1205,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 603540648}
-  rotationSpeed: 45
 --- !u!1 &630792067 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4780382030611688559, guid: 8918ed1f349ffd6458876950d42f73d1, type: 3}
-  m_PrefabInstance: {fileID: 4780382031892074891}
-  m_PrefabAsset: {fileID: 0}
---- !u!249 &630792069 stripped
-AreaEffector2D:
-  m_CorrespondingSourceObject: {fileID: 4780382030611688557, guid: 8918ed1f349ffd6458876950d42f73d1, type: 3}
-  m_PrefabInstance: {fileID: 4780382031892074891}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &630792070 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 4780382030611688556, guid: 8918ed1f349ffd6458876950d42f73d1, type: 3}
   m_PrefabInstance: {fileID: 4780382031892074891}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &630792072
@@ -1239,8 +1222,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e5cc0e1dd68bd541bd1f0dfd7847450, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  areaEffector: {fileID: 630792069}
-  spriteRenderer: {fileID: 630792070}
 --- !u!1 &683058304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1386,8 +1367,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 683058308}
-  rotationSpeed: 45
 --- !u!1 &738979675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,8 +1596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 793818755}
-  rotationSpeed: 45
 --- !u!1 &1016638036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1892,8 +1869,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 1152120112}
-  rotationSpeed: 45
 --- !u!1 &1198408791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2020,6 +1995,8 @@ GameObject:
   - component: {fileID: 1281479672}
   - component: {fileID: 1281479671}
   - component: {fileID: 1281479677}
+  - component: {fileID: 1281479678}
+  - component: {fileID: 1281479679}
   m_Layer: 0
   m_Name: yoshikuzu
   m_TagString: gomi
@@ -2169,6 +2146,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collisionSound: {fileID: 8300000, guid: 42e195051168e4646923dafffda1ef12, type: 3}
+--- !u!114 &1281479678
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281479670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0932a255c37536b408d18633d57e7ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraShake: {fileID: 367179353}
+  shakeDuration: 0.1
+  shakeMagnitude: 0.00001
+--- !u!114 &1281479679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1281479670}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0932a255c37536b408d18633d57e7ad4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraShake: {fileID: 367179353}
+  shakeDuration: 0.1
+  shakeMagnitude: 0.1
 --- !u!1 &1346802770
 GameObject:
   m_ObjectHideFlags: 0
@@ -2665,8 +2672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 1613175538}
-  rotationSpeed: 45
 --- !u!1 &1621987575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2697,7 +2702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8c88039c79a9024c85f5fd950d5b996, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 1621987578}
 --- !u!212 &1621987577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3243,8 +3247,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 1987163464}
-  rotationSpeed: 45
 --- !u!1 &2072367418
 GameObject:
   m_ObjectHideFlags: 0
@@ -3391,8 +3393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triangleTransform: {fileID: 2072367422}
-  rotationSpeed: 45
 --- !u!1001 &4780382031892074891
 PrefabInstance:
   m_ObjectHideFlags: 0

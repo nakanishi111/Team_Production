@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 79427129}
   m_Layer: 0
   m_Name: gomibako1
-  m_TagString: gomibako
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7289,7 +7289,7 @@ GameObject:
   - component: {fileID: 1765193284}
   m_Layer: 0
   m_Name: gomibakoatarihantei
-  m_TagString: Untagged
+  m_TagString: gomibako
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

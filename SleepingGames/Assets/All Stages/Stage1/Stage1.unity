@@ -2008,7 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Stage2
-  delay: 3
+  delay: 0
 --- !u!68 &1365871338
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -2257,7 +2257,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 5eed915f08b7a494b95ef075ca1b073a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4df814100f2c70a428baea1276bba318, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1

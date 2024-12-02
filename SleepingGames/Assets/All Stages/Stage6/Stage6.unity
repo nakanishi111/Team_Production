@@ -373,9 +373,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 192385552}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f6db2eff4a9fda4b87adf52974737fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 192385555}
+  rotationSpeed: 45
 --- !u!212 &192385554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1004,9 +1006,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 603343635}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8c88039c79a9024c85f5fd950d5b996, type: 3}
+  m_Script: {fileID: 11500000, guid: 1331614b55a752c4f83440db29d52966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 603343636}
 --- !u!212 &603343638
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1202,9 +1205,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 603540644}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
+  m_Script: {fileID: 11500000, guid: 65e25756f37f8194a85d8b1c288b8f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 603540648}
+  rotationSpeed: 45
 --- !u!1 &630792067 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4780382030611688559, guid: 8918ed1f349ffd6458876950d42f73d1, type: 3}
@@ -1219,9 +1224,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 630792067}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e5cc0e1dd68bd541bd1f0dfd7847450, type: 3}
+  m_Script: {fileID: 11500000, guid: 30f4cfca20d1a08468e4b9f49448d868, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  areaEffector: {fileID: 630792074}
+  spriteRenderer: {fileID: 630792075}
+--- !u!249 &630792074 stripped
+AreaEffector2D:
+  m_CorrespondingSourceObject: {fileID: 4780382030611688557, guid: 8918ed1f349ffd6458876950d42f73d1, type: 3}
+  m_PrefabInstance: {fileID: 4780382031892074891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &630792075 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 4780382030611688556, guid: 8918ed1f349ffd6458876950d42f73d1, type: 3}
+  m_PrefabInstance: {fileID: 4780382031892074891}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &683058304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,9 +1381,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 683058304}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f6db2eff4a9fda4b87adf52974737fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 683058308}
+  rotationSpeed: 45
 --- !u!1 &738979675
 GameObject:
   m_ObjectHideFlags: 0
@@ -1593,9 +1612,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 793818752}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f6db2eff4a9fda4b87adf52974737fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 793818755}
+  rotationSpeed: 45
 --- !u!1 &1016638036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,9 +1887,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1152120108}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e2b41a697b0cc38449c26e205170b76e, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f6db2eff4a9fda4b87adf52974737fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 1152120112}
+  rotationSpeed: 45
 --- !u!1 &1198408791
 GameObject:
   m_ObjectHideFlags: 0
@@ -2669,9 +2692,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1613175534}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
+  m_Script: {fileID: 11500000, guid: 65e25756f37f8194a85d8b1c288b8f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 1613175538}
+  rotationSpeed: 45
 --- !u!1 &1621987575
 GameObject:
   m_ObjectHideFlags: 0
@@ -2699,9 +2724,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1621987575}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8c88039c79a9024c85f5fd950d5b996, type: 3}
+  m_Script: {fileID: 11500000, guid: 1331614b55a752c4f83440db29d52966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 1621987578}
 --- !u!212 &1621987577
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2991,6 +3017,63 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.49897543, y: 0.3091982}
   m_EdgeRadius: 0
+--- !u!1001 &1763981719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9145586374067369107, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_Name
+      value: Particle System
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 8.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9145586374067369110, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
 --- !u!1 &1823600108
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,9 +3327,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1987163460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
+  m_Script: {fileID: 11500000, guid: 65e25756f37f8194a85d8b1c288b8f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 1987163464}
+  rotationSpeed: 45
 --- !u!1 &2072367418
 GameObject:
   m_ObjectHideFlags: 0
@@ -3390,9 +3475,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 2072367418}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd1e30754ce8f14499465a42982d1f51, type: 3}
+  m_Script: {fileID: 11500000, guid: 65e25756f37f8194a85d8b1c288b8f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  triangleTransform: {fileID: 2072367422}
+  rotationSpeed: 45
 --- !u!1 &2072554483
 GameObject:
   m_ObjectHideFlags: 0
@@ -3404,6 +3491,7 @@ GameObject:
   - component: {fileID: 2072554486}
   - component: {fileID: 2072554485}
   - component: {fileID: 2072554484}
+  - component: {fileID: 2072554487}
   m_Layer: 0
   m_Name: gomibakoatarihantei
   m_TagString: gomibako
@@ -3424,7 +3512,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: End
-  delay: 3
+  delay: 2
 --- !u!68 &2072554485
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -3455,13 +3543,26 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2072554483}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.36, y: 0.57, z: 0}
+  m_LocalPosition: {x: 8.45, y: -0.27, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2072554487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2072554483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0578f94bb36d874e954f85a755567f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleEffect: {fileID: 9145586374067369109, guid: d2d62159e91d30547896c56b8ca2dc96, type: 3}
 --- !u!1001 &4780382031892074891
 PrefabInstance:
   m_ObjectHideFlags: 0

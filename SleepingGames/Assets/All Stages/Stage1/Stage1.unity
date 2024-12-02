@@ -2008,7 +2008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Stage2
-  delay: 0
+  delay: 2
 --- !u!68 &1365871338
 EdgeCollider2D:
   m_ObjectHideFlags: 0

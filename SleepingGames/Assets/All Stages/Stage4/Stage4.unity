@@ -1187,7 +1187,6 @@ GameObject:
   - component: {fileID: 709292744}
   - component: {fileID: 709292743}
   - component: {fileID: 709292745}
-  - component: {fileID: 709292746}
   m_Layer: 0
   m_Name: gomibakoatarihantei
   m_TagString: gomibako
@@ -1247,19 +1246,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: Stage5
   delay: 2
---- !u!114 &709292746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 709292742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0578f94bb36d874e954f85a755567f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  particleEffect: {fileID: 458858157}
 --- !u!1 &827915403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2591,6 +2577,7 @@ GameObject:
   - component: {fileID: 1465961936}
   - component: {fileID: 1465961937}
   - component: {fileID: 1465961938}
+  - component: {fileID: 1465961939}
   m_Layer: 0
   m_Name: yoshikuzu
   m_TagString: gomi
@@ -2769,6 +2756,19 @@ MonoBehaviour:
   cameraShake: {fileID: 1755551061}
   shakeDuration: 0.1
   shakeMagnitude: 0.1
+--- !u!114 &1465961939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465961929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0578f94bb36d874e954f85a755567f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  particleEffect: {fileID: 458858157}
 --- !u!1 &1478668492
 GameObject:
   m_ObjectHideFlags: 0

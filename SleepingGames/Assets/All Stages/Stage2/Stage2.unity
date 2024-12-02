@@ -6650,6 +6650,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107130866}
   - component: {fileID: 1107130865}
+  - component: {fileID: 1107130867}
   m_Layer: 0
   m_Name: gomibako2
   m_TagString: gomibako
@@ -6724,6 +6725,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1107130867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107130864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aeb4ef9e9f5de7c4db50137b1b2cdcf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Stage3
+  delay: 3
 --- !u!1 &1229207749 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4352989266443326917, guid: 9f76519bd8e1f664b9cf3487729a8883, type: 3}

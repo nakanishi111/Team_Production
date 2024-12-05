@@ -251,6 +251,7 @@ GameObject:
   - component: {fileID: 132179191}
   - component: {fileID: 132179199}
   - component: {fileID: 132179200}
+  - component: {fileID: 132179201}
   m_Layer: 0
   m_Name: peetobotoru
   m_TagString: Untagged
@@ -372,6 +373,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.14056805, y: 0.4039321}
   m_EdgeRadius: 0
+--- !u!114 &132179201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132179190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &351151782
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +486,7 @@ GameObject:
   - component: {fileID: 376454829}
   - component: {fileID: 376454828}
   - component: {fileID: 376454827}
+  - component: {fileID: 376454830}
   m_Layer: 0
   m_Name: enpitu 1
   m_TagString: Untagged
@@ -646,6 +660,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.099814676, y: 0.40777397}
   m_EdgeRadius: 0
+--- !u!114 &376454830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376454823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &383856592
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,6 +1286,7 @@ GameObject:
   - component: {fileID: 827915406}
   - component: {fileID: 827915405}
   - component: {fileID: 827915404}
+  - component: {fileID: 827915410}
   m_Layer: 0
   m_Name: akapen
   m_TagString: Untagged
@@ -1433,6 +1460,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &827915410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827915403}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &902003046
 GameObject:
   m_ObjectHideFlags: 0
@@ -1688,6 +1727,7 @@ GameObject:
   - component: {fileID: 1097717117}
   - component: {fileID: 1097717120}
   - component: {fileID: 1097717119}
+  - component: {fileID: 1097717121}
   m_Layer: 0
   m_Name: kesigomu
   m_TagString: Untagged
@@ -1809,6 +1849,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.33812106, y: 0.5778961}
   m_EdgeRadius: 0
+--- !u!114 &1097717121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097717116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1184718682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1903,6 +1955,7 @@ GameObject:
   - component: {fileID: 1199008318}
   - component: {fileID: 1199008317}
   - component: {fileID: 1199008321}
+  - component: {fileID: 1199008322}
   m_Layer: 0
   m_Name: midoripettobotoru
   m_TagString: Untagged
@@ -2048,6 +2101,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1199008322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199008316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1217541596
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,6 +2448,7 @@ GameObject:
   - component: {fileID: 1402276188}
   - component: {fileID: 1402276187}
   - component: {fileID: 1402276186}
+  - component: {fileID: 1402276192}
   m_Layer: 0
   m_Name: aopen
   m_TagString: Untagged
@@ -2556,6 +2622,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1402276192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1402276185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1426097627
 GameObject:
   m_ObjectHideFlags: 0
@@ -2796,6 +2874,7 @@ GameObject:
   - component: {fileID: 1553265000}
   - component: {fileID: 1553264999}
   - component: {fileID: 1553264998}
+  - component: {fileID: 1553265004}
   m_Layer: 0
   m_Name: kiiropen
   m_TagString: Untagged
@@ -2969,6 +3048,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1553265004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553264997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250f51f360968c642a8bebd226bec5b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1568259261
 GameObject:
   m_ObjectHideFlags: 0

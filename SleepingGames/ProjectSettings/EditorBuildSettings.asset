@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/All Stages/Stage1/Stage1.unity
     guid: 2eca5ceb308cdfd48a97823f33c0407a
   - enabled: 1
-    path: Assets/All Stages/Stage2/Stage2.unity
+    path: Assets/All Stages/Stage3/Stage3.unity
     guid: 5ac6a49473ba1b148a3f85252eec172e
   - enabled: 1
-    path: Assets/All Stages/Stage3/Stage3.unity
+    path: Assets/All Stages/Stage2/Stage2.unity
     guid: eeeb7e78bd40a1048b206c95daaf9aed
   - enabled: 1
     path: Assets/All Stages/Stage4/Stage4.unity
